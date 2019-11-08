@@ -20,15 +20,17 @@ describe( 'score', ()=> {
         const run = help.score(4)
 
         expect(run).toBe(expected)
+        expect(run).not.toBe(20)
 
     })
 })
 
 describe( 'walk', ()=> {
     it('increments ball amount', ()=> {
-        const expected =0;
-        const actual = help.walk(4);
-        expect(actual).toBeExpected;
+        const expected =1;
+        const actual = help.walk(0);
+        expect(actual).toBe(expected);
+
 
         
     })

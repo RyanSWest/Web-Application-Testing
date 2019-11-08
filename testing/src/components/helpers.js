@@ -31,7 +31,7 @@ exports.score = function(hits){
 
 
 exports.walk = function(balls){
-   if(balls >=4){
+   if(balls ===4){
        balls = 0;
    }else{
        return balls +1;

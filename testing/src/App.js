@@ -86,8 +86,12 @@ const reset =(e)=> {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Baseball</h1>
-       
+
+        {/* <div className = "wrapper"> */}
+        <h1 className = "baseball">Baseball</h1>
+
+        {/* </div> */}
+        
 
         <Display strikes = {strikes} 
           striker={striker}
